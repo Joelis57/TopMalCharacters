@@ -5,9 +5,9 @@ import os
 
 data_dir = "data"
 json_filename = os.path.join(data_dir, "top_characters.json")
-js_filename = os.path.join(data_dir, "top_characters.min.js")
+js_filename = os.path.join(data_dir, "top_characters.min.json")
 compact_json_filename = os.path.join(data_dir, "top_characters.compact.json")
-compact_js_filename = os.path.join(data_dir, "top_characters.compact.min.js")
+compact_js_filename = os.path.join(data_dir, "top_characters.compact.min.json")
 
 all_characters = []
 compact_characters = []
